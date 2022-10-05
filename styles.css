@@ -1,0 +1,51 @@
+* {
+  border-style: none;
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+
+.logo .armada_logo {
+  width: 25vw;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+.header_info_bar {
+  background-color: red;
+  padding: 10px;
+}
+
+.header_info_text {
+  color: black;
+  display: inline-block;
+  background-color: bisque;
+  border-radius: 5px 5px;
+  padding: 5px;
+}
+
+.nav_bar {
+  align-items: center;
+  justify-content: center;
+}
+
+.site_nav {
+  display: flex;
+  margin: 0 2px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav_links {
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_links a {
+  text-decoration: none;
+  font-size: 15px;
+  color: lightsalmon;
+}
