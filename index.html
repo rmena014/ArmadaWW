@@ -14,15 +14,25 @@
       type="image/x-icon"
       href="/images/armadaLogoTransparent.webp"
     />
+
     <title>Aramada Work Wear</title>
   </head>
   <body>
     <!--Header Goes Here-->
     <header>
       <div class="header_info_bar">
-        <button type="button" class="menu_button">
-          <img src="/images/menuIcon.webp" />
-        </button>
+        <div id="sideNav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="index.html">Home</a>
+          <a href="products.html">Clothes</a>
+          <a href="footwear.html">Footwear</a>
+          <a href="contact.html">Contact Us!</a>
+        </div>
+        <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+          >&#9776;</span
+        >
         <p class="header_info_text">Free Shipping on any order over 100!</p>
         <div class="cart_icon">
           <i class="material-icons">shopping_cart</i>
@@ -30,7 +40,10 @@
       </div>
       <div class="logo">
         <a href="index.html"
-          ><img class="armada_logo" src="images/armadaLogoTransparent.webp" />
+          ><img
+            class="armada_logo"
+            src="/images/armadaLogoTransparent copy.webp"
+          />
         </a>
       </div>
       <nav class="nav_bar">
@@ -45,7 +58,6 @@
     <main>
       <div class="slideshow-container">
         <div class="mySlides slide">
-          <div class="numbertext">1 / 3</div>
           <img
             src="/images/carpenterPantSliderImage copy.jpg"
             style="width: 100%"
@@ -53,7 +65,6 @@
         </div>
 
         <div class="mySlides slide">
-          <div class="numbertext">2 / 3</div>
           <img
             src="/images/courdroySliderImage copy.webp"
             style="width: 100%"
@@ -61,24 +72,102 @@
         </div>
 
         <div class="mySlides slide">
-          <div class="numbertext">3 / 3</div>
           <img src="/images/footwearSliderImage.webp" style="width: 100%" />
+        </div>
+        <div class="mySlides slide">
+          <img src="/images/knitwearSliderImage.webp" style="width: 100%" />
         </div>
       </div>
       <br />
     </main>
     <section class="brand_info">
-      <h2>Armada™</h2>
+      <div class="brand_vintage_img">
+        <img src="/images/armadaWWVintageTransparent.webp" />
+      </div>
+      <div class="info_heading">
+        <h2>The history of Armada™:</h2>
+      </div>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Founded in 2022, Armada has been a leading force in the work wear
+        industry for good reason. What began with a pair of brothers in New York
+        City has now become a multifaceted company providing people everywhere
+        great quality clothing. Created with the idea of utility and aesthetics
+        in mind, Armada has been curating and designing pieces fit for any and
+        all individuals, worker or not.
+      </p>
+      <div class="info_heading">
+        <h2>Our vision:</h2>
+      </div>
+      <p>
+        Armada work wear is a company for workers made by workers with the goal
+        of creating high quality pieces which offer maximum comfort without
+        diminishing style. We strive to build strong relationships with our
+        consumers and our vision is continue making an imprint in the world of
+        work wear and fashion in general.
       </p>
     </section>
+
+    <footer class="footer">
+      <div class="footer__addr">
+        <div class="nav__title">
+          <h1>Armada™</h1>
+        </div>
+        <div class="footerBttn">
+          <a class="footer__btn" href="contact.html">Email Us</a>
+        </div>
+      </div>
+
+      <ul class="footer__nav">
+        <li class="nav__item">
+          <div class="nav__title">
+            <h1>Socials</h1>
+          </div>
+
+          <ul class="nav__ul">
+            <li>
+              <a href="https://twitter.com/i/flow/login" target="_blank"
+                >Twitter</a
+              >
+            </li>
+
+            <li>
+              <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            </li>
+            <li>
+              <a
+                href="https://accounts.snapchat.com/accounts/login?continue=%2Faccounts%2Fwelcome"
+                target="_blank"
+                >Snapchat</a
+              >
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav__item">
+          <div class="nav__title">
+            <h1>Legal</h1>
+          </div>
+
+          <ul class="nav__ul">
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="#">Terms of Use</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="legal">
+        <p>&copy; 2022 Armada. All rights reserved.</p>
+      </div>
+    </footer>
     <script src="app.js"></script>
   </body>
 </html>
