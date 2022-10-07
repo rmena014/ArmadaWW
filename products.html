@@ -4,7 +4,117 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/images/armadaLogoTransparent.webp"
+    />
+
     <title>Armada Work Wear</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="header_info_bar">
+        <div id="sideNav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="index.html">Home</a>
+          <a href="products.html">Clothes</a>
+          <a href="footwear.html">Footwear</a>
+          <a href="contact.html">Contact Us!</a>
+        </div>
+        <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+          >&#9776;</span
+        >
+        <p class="header_info_text">Free Shipping on any order over $100!</p>
+        <div class="cart_icon">
+          <i class="material-icons">shopping_cart</i>
+        </div>
+      </div>
+      <div class="logo">
+        <a href="index.html"
+          ><img
+            class="armada_logo"
+            src="/images/armadaLogoTransparent copy.webp"
+          />
+        </a>
+      </div>
+      <nav class="nav_bar">
+        <ul class="site_nav" id="mynav">
+          <li class="nav_links"><a href="index.html">Home</a></li>
+          <li class="nav_links"><a href="products.html">Clothes</a></li>
+          <li class="nav_links"><a href="footwear.html">Footwear</a></li>
+          <li class="nav_links"><a href="contact.html">Contact Us!</a></li>
+        </ul>
+      </nav>
+    </header>
+    <footer class="footer">
+      <div class="footer__addr">
+        <div class="nav__title">
+          <h1>Armada™</h1>
+        </div>
+        <div class="footerBttn">
+          <a class="footer__btn" href="contact.html">Email Us</a>
+        </div>
+      </div>
+
+      <ul class="footer__nav">
+        <li class="nav__item">
+          <div class="nav__title">
+            <h1>Socials</h1>
+          </div>
+
+          <ul class="nav__ul">
+            <li>
+              <a href="https://twitter.com/i/flow/login" target="_blank"
+                >Twitter</a
+              >
+            </li>
+
+            <li>
+              <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            </li>
+            <li>
+              <a
+                href="https://accounts.snapchat.com/accounts/login?continue=%2Faccounts%2Fwelcome"
+                target="_blank"
+                >Snapchat</a
+              >
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav__item">
+          <div class="nav__title">
+            <h1>Legal</h1>
+          </div>
+
+          <ul class="nav__ul">
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="#">Terms of Use</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="legal">
+        <p>&copy; 2022 Armada. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
 </html>
