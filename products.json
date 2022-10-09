@@ -1,0 +1,86 @@
+[
+  {
+    "image": "productImages/denimWorkShirt.webp",
+    "clothesId": "Denim Zipup Workshirt",
+    "description": " Regular fit zip-front denim work shirt. Made from premium materials in the heart of New York.",
+    "color": "Denim",
+    "price": "$90"
+  },
+  {
+    "image": "productImages/corduroyButtonUp.webp",
+    "clothesId": "Corduroy Longsleeve",
+    "description": "The Corduroy Armada Longsleeve is a cold-weather classic that you'll wear all season long. Made with 100 percent cotton for more versatility and a more comfortable fit.",
+    "color": "Navy",
+    "price": "$75"
+  },
+  {
+    "image": "productImages/khakiKnit.webp",
+    "clothesId": "Cable Knit Sweater",
+    "description": "A masterfully crafted sweater utilizing an innovative cable technique. Knitted with the finest Italian wool and perfect for any environment.",
+    "color": "Cream",
+    "price": "$85"
+  },
+  {
+    "image": "productImages/denimCarpPant.webp",
+    "clothesId": "Denim Carpenter Pant",
+    "description": "A pant that can endure even the toughest of conditions, our Denim Carpenter pant is an extremely stylish yet very functional piece.",
+    "color": "Denim",
+    "price": "$70"
+  },
+  {
+    "image": "productImages/darkKhakiPant.webp",
+    "clothesId": "Dark Khaki Carpenter Pant",
+    "description": "Made of a heavyweight cotton, our Khaki Carpenter Pant is an extremely durable yet comfortable pant. Suitible for laying tile or a stroll to the park, you can never go wrong with this pair.",
+    "color": "Dark Khaki",
+    "price": "$70"
+  },
+  {
+    "image": "productImages/corduroyPant.webp",
+    "clothesId": "Corduroy Pant",
+    "description": "Corduroys are often cut exactly like jeans, the only difference being in the cloth from which they're made — corduroy instead of denim. Both fabrics are traditionally woven from cotton, but corduroy's twisted fibers, or cords, form a ridged, raised pattern you can feel with your fingertips",
+    "color": "Khaki",
+    "price": "$85"
+  },
+  {
+    "image": "productImages/straightLegWorkwearpant.webp",
+    "clothesId": "Straight Leg Workwear Pant",
+    "description": "Our Straight Leg Workwear Pant is an extremely versatile utility pant made with wrinkle resistant materials and pockets in all the right places. These pants will do no wrong.",
+    "color": "Brown",
+    "price": "$55"
+  },
+  {
+    "image": "productImages/blackBeanie.webp",
+    "clothesId": "Charcoal Beanie",
+    "description": "An essential accessory that everyone needs to own, our Charcoal beanie is a great lightweight knitted cap. Made using Acrylic fibers, this beanie is guaranteed to keep your head warm and cozy. ",
+    "color": "Charcoal",
+    "price": "$45"
+  },
+  {
+    "image": "productImages/parchmentBeanie.webp",
+    "clothesId": "Parchment Beanie",
+    "description": "Our Parchment beanie is a great lightweight knitted cap. Consists of our signature branding. Made using Acrylic fibers, this beanie is guaranteed to keep your head warm and cozy.",
+    "color": "Khaki",
+    "price": "$65"
+  },
+  {
+    "image": "productImages/armadaTote.webp",
+    "clothesId": "Armada Cotton Totebag",
+    "description": "Our signature 100% cotton totebag is an amazing carryall that can suit all your needs. Whether you are having a busy day shopping or just running some errands, this bag has you covered.",
+    "color": "Khaki",
+    "price": "$25"
+  },
+  {
+    "image": "productImages/armadaCaribiner.webp",
+    "clothesId": "Armada Carabiner",
+    "description": "A stylish Carabiner made of Zinc plated steel with a twist lock mechanism.",
+    "color": "Khaki",
+    "price": "$15"
+  },
+  {
+    "image": "productImages/workBoot.webp",
+    "clothesId": "Armada Workboot",
+    "description": "Our Armada Workboot may possibly be the greatest boot ever. Built with tremendous craftsmanship, our workboot can quite literally be utilized in any situation. Hunting, hiking, camping, etc, our Armada Workboot is perfect for any journey.",
+    "color": "Tan",
+    "price": "$250"
+  }
+]

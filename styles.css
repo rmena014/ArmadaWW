@@ -17,7 +17,7 @@
   transition: all 0.7s ease;
 }
 .logo .armada_logo:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
 }
 /* Red Info Bar Styling */
 .header_info_bar {
@@ -371,101 +371,7 @@ address {
   justify-content: center;
 }
 /* Contact Page Styling */
-.container {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  padding: 20px 100px;
-}
-.container::after {
-  /* after creates a pseudo-element that is the last child of the selected element */
-  content: "";
-  position: absolute;
-  left: 0%;
-  top: 0%;
-  width: 100%;
-  height: 100%;
-  background: url("/images/armadaLogoVector.svg") no-repeat center;
-  background-size: cover;
-  z-index: -1;
-  filter: blur(5px);
-}
 
-.contact-box {
-  border-radius: 25px;
-  max-width: 850px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.986);
-  box-shadow: 10px 10px 20px rgba(10, 10, 10, 0.474);
-}
-.left {
-  height: 100%;
-  background: url("/images/armadaWWVintageTransparent.webp") no-repeat center;
-  border-radius: 25px;
-  background-size: contain;
-}
-.right {
-  padding: 25px 40px;
-}
-.contact-text {
-  color: black;
-  position: relative;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-}
-.contact-text::after {
-  /* after creates a pseudo-element that is the last child of the selected element */
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 0;
-  transform: translateX(-50%);
-  /* translateX affects the element on the x axis */
-  height: 4px;
-  width: 50%;
-  border-radius: 10px;
-  background-color: rgb(162, 68, 68);
-}
-.field {
-  width: 100%;
-  padding: 0.5rem 1rem;
-  /* relative to the root element */
-  background-color: rgba(230, 230, 230, 0.6);
-  font-size: 1.1 rem;
-  margin-bottom: 22px;
-  transition: 0.3s;
-  resize: none;
-  border-radius: 10px 5px;
-  border: solid rgba(247, 83, 83, 0.612) 2px;
-}
-
-.field:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
-.bttn {
-  border-radius: 25px;
-  width: 100%;
-  padding: 0.5rem 1rem;
-  color: rgb(255, 255, 255);
-  width: 100%;
-  font-size: 1.1rem;
-  background-color: rgb(241, 98, 98);
-  cursor: pointer;
-  transition: all 0.9s ease;
-}
-
-.bttn:hover {
-  background-color: rgb(129, 175, 129);
-  transform: scale(1.3);
-}
 /* media queries */
 @media screen and (max-width: 831px) {
   .nav_bar {
