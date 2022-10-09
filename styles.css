@@ -191,7 +191,7 @@
   justify-content: center;
 }
 .brand_info p,
-h2 {
+.brand info h2 {
   font-size: 2vw;
   padding: 5px;
   display: block;
@@ -371,7 +371,100 @@ address {
   justify-content: center;
 }
 /* Contact Page Styling */
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px 100px;
+}
+.container::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
 
+  z-index: -1;
+}
+.contactBox {
+  max-width: 850px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px 10px;
+  background-image: linear-gradient(to bottom right, rgb(0, 153, 255), orange);
+  box-shadow: 0px 0px 19px 5px rgba(53, 53, 53, 0.242);
+}
+.left {
+  height: 100%;
+  background: url("/images/armadaWWVintageTransparent.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.right {
+  padding: 25px 40px;
+}
+.right h2 {
+  color: white;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.right h2::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+  background-color: #cc3e2e;
+}
+.field {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: 0.3s;
+  resize: none;
+}
+::placeholder {
+  color: rgb(0, 0, 0);
+}
+.field:focus {
+  background-color: #ffc296;
+}
+
+.area {
+  min-height: 150px;
+}
+.submitBttn {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  outline: solid 1px black;
+  border: none;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+.submitBttn:hover {
+  background-color: rgb(0, 162, 255);
+  color: white;
+}
 /* media queries */
 @media screen and (max-width: 831px) {
   .nav_bar {
@@ -425,6 +518,31 @@ address {
   }
   .shopbttn a {
     font-size: 15px;
+  }
+  .left {
+    display: none;
+  }
+  .contactBox,
+  .container,
+  .field,
+  textarea {
+    width: 100%;
+    height: auto;
+    display: flex;
+    display: inline;
+  }
+  .field {
+    /* background-color: rgba(4, 160, 195, 0.766); */
+    border: solid 2px black;
+  }
+  .field:focus {
+    background-color: rgb(248, 153, 119);
+  }
+  ::placeholder {
+    color: rgb(0, 0, 0);
+  }
+  .submitBttn {
+    background-color: aliceblue;
   }
 }
 @media screen and (max-height: 450px) {
