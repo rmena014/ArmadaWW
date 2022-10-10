@@ -457,6 +457,7 @@ address {
 }
 .field:focus {
   background-color: #ffc296;
+  border: solid 2px rgb(248, 98, 98);
 }
 
 .area {
