@@ -43,6 +43,7 @@
   padding-top: 52px;
   font-size: 34px;
   color: #474747;
+  font-family: "Abril Fatface", cursive;
 }
 
 .productDesc {
@@ -53,6 +54,7 @@
   font-size: 15px;
   font-weight: lighter;
   overflow: hidden;
+  font-family: "Rhodium Libre", serif;
 }
 
 .productBuy {
@@ -70,6 +72,7 @@
   margin: 0 0 0 38px;
   font-size: 28px;
   font-weight: lighter;
+  font-family: "Istok Web", sans-serif;
 }
 
 .addtocart {
@@ -90,6 +93,7 @@
   cursor: pointer;
   outline: none;
   transition: all 0.6s ease;
+  font-family: "Istok Web", sans-serif;
 }
 .addtocart:hover {
   background-color: red;
@@ -109,5 +113,18 @@
   }
   .price {
     font-size: 25px;
+  }
+  .productimg:hover {
+    border: none;
+    box-shadow: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .productimg {
+    float: left;
+    border-radius: 10px;
+    transition: all 0.2s;
+    width: 100%;
   }
 }

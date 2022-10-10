@@ -52,6 +52,7 @@
   color: #f74949;
   display: block;
   transition: 0.3s;
+  font-family: "Rhodium Libre", serif;
 }
 
 .sidenav a:hover {
@@ -110,6 +111,7 @@
   font-size: 25px;
   color: lightsalmon;
   transition: all 1s ease;
+  font-family: "Rhodium Libre", serif;
 }
 
 .nav_links a:hover {
@@ -200,6 +202,13 @@
   text-align: center;
 }
 
+.brand_info h2 {
+  font-family: "Abril Fatface", cursive;
+}
+.brand_info p {
+  font-family: "Istok Web", sans-serif;
+}
+
 .vintage_img2 {
   display: flex;
   justify-content: center;
@@ -230,6 +239,7 @@
   font-size: 20px;
   text-decoration: none;
   transition: all 1s ease;
+  font-family: "Abril Fatface", cursive;
 }
 
 .shopbttn a:hover {
@@ -276,6 +286,7 @@
   font-size: 10px;
   display: flex;
   justify-content: center;
+  font-family: "Abril Fatface", cursive;
 }
 
 .footer address {
@@ -315,6 +326,7 @@
 
 .footer a {
   text-decoration: none;
+  font-family: "Istok Web", sans-serif;
 }
 
 .footer__nav {
@@ -416,6 +428,7 @@ address {
   position: relative;
   padding-bottom: 10px;
   margin-bottom: 10px;
+  font-family: "Abril Fatface", cursive;
 }
 .right h2::after {
   content: "";
@@ -460,6 +473,7 @@ address {
   border: none;
   transition: 0.5s;
   border-radius: 5px;
+  font-family: "Istok Web", sans-serif;
 }
 .submitBttn:hover {
   background-color: rgb(0, 162, 255);

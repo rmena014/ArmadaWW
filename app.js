@@ -7,7 +7,9 @@ request.send();
 //telling the function to run when page loads
 request.onload = function () {
   let products = JSON.parse(this.responseText);
+  // products variable parses the json file so that JS can read the object
   let output = " ";
+  //empty output variable to hold the output after it was defined
   for (let item of products) {
     output += `<section>
     <div class="wrapper">
@@ -25,6 +27,7 @@ request.onload = function () {
     </div>
   </section>`;
   }
+  //targets the main containers html to display on the site
   document.querySelector(".wrapper").innerHTML = output;
 };
 
