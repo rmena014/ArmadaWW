@@ -1,3 +1,4 @@
+//Utilized XMLHttpRequest to display data from json file
 //first we open up a new object, request
 let request = new XMLHttpRequest();
 //Fetches the products.json file
@@ -38,6 +39,7 @@ showSlides();
 function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
+  //Utilized a for loop to go through images for the slider. For initialized i and as long as i is less than the length of the slides it increments by one.
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
@@ -45,6 +47,7 @@ function showSlides() {
   if (slideIndex > slides.length) {
     slideIndex = 1;
   }
+  //Slides restart
   slides[slideIndex - 1].style.display = "block";
   setTimeout(showSlides, 7000); //  image changes every 7 seconds
 }

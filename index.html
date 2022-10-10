@@ -36,6 +36,7 @@
     <header>
       <div class="header_info_bar">
         <div id="sideNav" class="sidenav">
+          <!-- An onclick event to open and close hamburger menu nav bar -->
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
             >&times;</a
           >
@@ -43,6 +44,7 @@
           <a href="products.html">Apparel</a>
           <a href="contact.html">Contact Us!</a>
         </div>
+        <!-- Used span tag due to its inline properties -->
         <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
           >&#9776;</span
         >
@@ -83,15 +85,23 @@
           <img
             src="/images/courdroySliderImage copy.webp"
             style="width: 100%"
-            alt="Corduroy"
+            alt="Corduroy Slider Image"
           />
         </div>
 
         <div class="mySlides slide">
-          <img src="/images/footwearSliderImage.webp" style="width: 100%" />
+          <img
+            src="/images/footwearSliderImage.webp"
+            alt="Premium Footwear Slider Image"
+            style="width: 100%"
+          />
         </div>
         <div class="mySlides slide">
-          <img src="/images/knitwearSliderImage.webp" style="width: 100%" />
+          <img
+            src="/images/knitwearSliderImage.webp"
+            alt="Knitwear Slider Image"
+            style="width: 100%"
+          />
         </div>
       </div>
       <br />
